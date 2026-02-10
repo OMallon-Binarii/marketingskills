@@ -1,5 +1,7 @@
 # Marketing Skills for Claude Code
 
+> **Credit**: This is a fork of [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) with pre-built `.skill` files for easy installation. All skills are created by [Corey Haines](https://corey.co?ref=marketingskills).
+
 A collection of AI agent skills focused on marketing tasks. Built for technical marketers and founders who want Claude Code (or similar AI coding assistants) to help with conversion optimization, copywriting, SEO, analytics, and growth engineering.
 
 Built by [Corey Haines](https://corey.co?ref=marketingskills). Need hands-on help? Check out [Conversion Factory](https://conversionfactory.co?ref=marketingskills) — Corey's agency for conversion optimization, landing pages, and growth strategy. Want to learn more about marketing? Subscribe to [Swipe Files](https://swipefiles.com?ref=marketingskills).
@@ -43,6 +45,16 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 | [signup-flow-cro](skills/signup-flow-cro/) | When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the... |
 | [social-content](skills/social-content/) | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram,... |
 <!-- SKILLS:END -->
+
+## Pre-built .skill Files
+
+This fork includes pre-built `.skill` files (zip archives) in the [`skills/`](skills/) folder for direct download and upload to Claude.ai. Browse them at:
+
+```
+https://github.com/mysticaltech/marketingskills/tree/main/skills
+```
+
+Each `.skill` file can be uploaded directly to Claude.ai under Settings → Skills → Upload Custom Skill.
 
 ## Installation
 
