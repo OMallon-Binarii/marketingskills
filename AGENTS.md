@@ -1,6 +1,39 @@
 # AGENTS.md
 
 Guidelines for AI agents working in this repository.
+# Binarii Labs — How we use this repo (Codex instructions)
+
+## Primary intent
+This repo is used as Binarii Labs' marketing playbook. When the user asks for marketing help, you MUST use the relevant skill(s) in /skills and produce shippable deliverables.
+
+## Where to find skills
+- Skills live in: skills/<skill-name>/SKILL.md
+- Optional deeper docs may exist in: skills/<skill-name>/references/
+
+## Where to write outputs
+Create and update deliverables in:
+- outputs/landing-pages/
+- outputs/emails/
+- outputs/ads/
+- outputs/seo/
+- outputs/social/
+- outputs/strategy/
+If these folders don't exist yet, create them with a README.md.
+
+## Default workflow for any request
+1) Ask 1–3 essential questions ONLY if needed (product, audience, offer, channel). If not provided, make reasonable assumptions and label them.
+2) Pick the best matching skill(s) from /skills and follow their steps.
+3) Produce a concrete artifact (copy, outline, plan, tracking spec, experiment backlog, etc.).
+4) Save it as a versioned markdown file (v1, v2, etc.) under /outputs.
+5) End with a short “Next Actions” checklist.
+
+## Output quality bar
+- Prefer specific copy (headlines, sections, CTAs, subject lines) over advice.
+- Include options (typically 3 headline/CTA variants) where helpful.
+- Keep it concise and ready to paste into a website/email tool.
+
+## Binarii context source of truth
+If a brand or product context file exists (e.g., brand/binarii-brand.md or docs/product-context.md), read it first and follow it.
 
 ## Repository Overview
 
